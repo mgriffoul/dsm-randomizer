@@ -1,28 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Randomizer/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Randomizer from './components/Randomizer'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Randomizer
   }
 }
 </script>
 
 <style lang="scss">
+@import "src/scss/variables";
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+html {
+  background-color: $primary-color;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: VT323, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: $secondary-color;
+  display: flex;
+  justify-content: center;
 }
 </style>
