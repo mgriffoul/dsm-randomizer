@@ -9,6 +9,7 @@ import Mathieu from './Mathieu'
 import Jimmy from './Jimmy'
 import Minh from './Minh'
 import Geoffrey from './Geoffrey'
+import Pos from './Pos'
 
 export {
   Charles,
@@ -21,5 +22,6 @@ export {
   Mathieu,
   Jimmy,
   Minh,
-  Geoffrey
+  Geoffrey,
+  Pos
 }

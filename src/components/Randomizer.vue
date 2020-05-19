@@ -30,7 +30,8 @@ import {
   Mathieu,
   Jimmy,
   Minh,
-  Geoffrey
+  Geoffrey,
+  Pos
 } from './players'
 
 export default {
@@ -46,7 +47,8 @@ export default {
     Mathieu,
     Jimmy,
     Minh,
-    Geoffrey
+    Geoffrey,
+    Pos
   },
   data: () => ({
     players: [
@@ -60,7 +62,8 @@ export default {
       { id: '8', component: Minh, avatar: 'minh', order: 0 },
       { id: '9', component: Ouzzin, avatar: '', order: 0 },
       { id: '10', component: Regis, avatar: 'regis.png', order: 0 },
-      { id: '11', component: William, avatar: 'william.png', order: 0 }
+      { id: '11', component: William, avatar: 'william.png', order: 0 },
+      { id: '12', component: Pos, avatar: 'Pos.png' }
     ],
     ticksNumber: 15
   }),
@@ -137,7 +140,6 @@ export default {
 
 img {
   height: 45px;
-  width: 45px;
 }
 
 .randomize-button {
