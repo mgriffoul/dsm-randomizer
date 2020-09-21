@@ -31,7 +31,8 @@ import {
   Jimmy,
   Minh,
   Geoffrey,
-  Pos
+  Pos,
+  Benjamin
 } from './players'
 
 export default {
@@ -48,11 +49,13 @@ export default {
     Jimmy,
     Minh,
     Geoffrey,
-    Pos
+    Pos,
+    Benjamin
   },
   data: () => ({
     players: [
       { id: '1', component: Anthony, avatar: 'anthony.png', order: 0 },
+      { id: '13', component: Benjamin, avatar: 'benjamin.png' },
       { id: '2', component: Charles, avatar: 'charles.png', order: 0 },
       { id: '3', component: Christophe, avatar: '', order: 0 },
       { id: '4', component: Geoffrey, avatar: '', order: 0 },
@@ -61,9 +64,9 @@ export default {
       { id: '7', component: Mathieu, avatar: '', order: 0 },
       { id: '8', component: Minh, avatar: 'minh', order: 0 },
       { id: '9', component: Ouzzin, avatar: '', order: 0 },
+      { id: '12', component: Pos, avatar: 'Pos.png' },
       { id: '10', component: Regis, avatar: 'regis.png', order: 0 },
-      { id: '11', component: William, avatar: 'william.png', order: 0 },
-      { id: '12', component: Pos, avatar: 'Pos.png' }
+      { id: '11', component: William, avatar: 'william.png', order: 0 }
     ],
     ticksNumber: 15
   }),

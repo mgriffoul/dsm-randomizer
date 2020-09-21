@@ -10,6 +10,7 @@ import Jimmy from './Jimmy'
 import Minh from './Minh'
 import Geoffrey from './Geoffrey'
 import Pos from './Pos'
+import Benjamin from './Benjamin'
 
 export {
   Charles,
@@ -23,5 +24,6 @@ export {
   Jimmy,
   Minh,
   Geoffrey,
-  Pos
+  Pos,
+  Benjamin
 }
