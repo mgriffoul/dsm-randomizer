@@ -32,7 +32,8 @@ import {
   Minh,
   Geoffrey,
   Pos,
-  Benjamin
+  Benjamin,
+  Serge
 } from './players'
 
 export default {
@@ -50,7 +51,8 @@ export default {
     Minh,
     Geoffrey,
     Pos,
-    Benjamin
+    Benjamin,
+    Serge
   },
   data: () => ({
     players: [
@@ -66,7 +68,8 @@ export default {
       { id: '9', component: Ouzzin, avatar: '', order: 0 },
       { id: '12', component: Pos, avatar: 'Pos.png' },
       { id: '10', component: Regis, avatar: 'regis.png', order: 0 },
-      { id: '11', component: William, avatar: 'william.png', order: 0 }
+      { id: '11', component: William, avatar: 'william.png', order: 0 },
+      { id: '12', component: Serge, avatar: 'serge.png', order: 0 }
     ],
     ticksNumber: 15
   }),

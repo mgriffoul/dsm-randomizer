@@ -11,6 +11,7 @@ import Minh from './Minh'
 import Geoffrey from './Geoffrey'
 import Pos from './Pos'
 import Benjamin from './Benjamin'
+import Serge from '@/components/players/Serge'
 
 export {
   Charles,
@@ -25,5 +26,6 @@ export {
   Minh,
   Geoffrey,
   Pos,
-  Benjamin
+  Benjamin,
+  Serge
 }
