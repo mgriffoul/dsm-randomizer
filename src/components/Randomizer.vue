@@ -69,7 +69,7 @@ export default {
       { id: '12', component: Pos, avatar: 'Pos.png' },
       { id: '10', component: Regis, avatar: 'regis.png', order: 0 },
       { id: '11', component: William, avatar: 'william.png', order: 0 },
-      { id: '12', component: Serge, avatar: 'serge.png', order: 0 }
+      { id: '14', component: Serge, avatar: 'serge.png', order: 0 }
     ],
     ticksNumber: 15
   }),
